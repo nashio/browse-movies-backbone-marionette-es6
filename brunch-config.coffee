@@ -8,10 +8,6 @@ module.exports = config:
               enabled: false
 
   files:
-
-    templates:
-      joinTo: 'templates/stuff.html'
-
     javascripts:
       joinTo:
         'js/app.js': /^app/
@@ -44,10 +40,3 @@ module.exports = config:
         js: on
         assets: on
       port: [3030, 4040]
-
-  #server:
-    #path: 'server.js'
-    #port: 3333
-    #base: '/'
-    #stripSlashes: true
-
