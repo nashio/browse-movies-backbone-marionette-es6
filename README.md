@@ -1,3 +1,5 @@
+Navigate through a list of movies using backbone marionette, es6 &amp; brunch fetched from 'The Movie Database'
+
 install
     npm install brunch
     npm install
@@ -7,4 +9,4 @@ execute:
 
 TODO:
     Add sort by
-    Add nav arrows on detail area
+
