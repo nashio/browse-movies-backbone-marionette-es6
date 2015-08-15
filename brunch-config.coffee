@@ -3,9 +3,7 @@ module.exports = config:
     production:
       optimize: true
       sourceMaps: false
-      plugins:
-          autoReload:
-              enabled: false
+      plugins: autoReload: enabled: false
 
   files:
     javascripts:

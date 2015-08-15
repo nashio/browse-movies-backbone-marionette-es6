@@ -9,7 +9,8 @@
     "bower": "^1.4.1",
     "brunch": "^1.8.4",
     "javascript-brunch": "^1.7.1",
-    "sass-brunch": "^1.8.10"
+    "sass-brunch": "^1.8.10",
+    "uglify-js-brunch": "^1.7.8"
   },
   "devDependencies": {
     "jasmine-core": "^2.3.4",

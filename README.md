@@ -1,6 +1,4 @@
-Navigate through a list of movies using backbone marionette, es6 &amp; brunch.
-
-Data fetched from 'The Movie Database' API
+Navigate through a list of movies from the Movie Database API. Uses backbone marionette, es6 modules and brunch.
 
 
 install managers
