@@ -4,6 +4,8 @@ var constants = {
     thumbSize  : 'w45',
     posterSize : 'w1000',
     apiKey      : '<YOUR API KEY HERE>',
+
+    // using keyword 2157 (movies with the hacker keyword)
     listAPI     : 'https://api.themoviedb.org/3/keyword/2157/movies?api_key=',
     singleAPI   : 'https://api.themoviedb.org/3/movie/'
 };
