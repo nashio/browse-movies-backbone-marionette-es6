@@ -3,11 +3,17 @@ Navigate through a list of movies using backbone marionette, es6 &amp; brunch.
 Data fetched from 'The Movie Database' API
 
 
-install
+install managers
 
     npm install brunch
 
+    npm install bower
+
+install deps
+
     npm install
+
+    bower install
 
 
 execute:
@@ -21,5 +27,5 @@ User your own moviedb developer key in:
 
 TODO:
 
-    Add sort by
+    Adding sort by fields
 
