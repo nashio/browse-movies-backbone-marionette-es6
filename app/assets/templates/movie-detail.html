@@ -1,0 +1,30 @@
+
+<div class='movie__backdrop'>
+    <img class="movie__backdrop-img" src='<%= backdrop_img %>' />
+</div>
+
+<div class='movie__container'>
+    <div class="movie__title"><%= title %></div>
+    <div class="movie__field">
+        <div class="movie__label">Tagline:</div>
+        <div class="movie__value"><%= tagline %></div>
+    </div>
+    <div class="movie__field">
+        <div class="movie__label">Release Date:</div>
+        <div class="movie__value"><%= release_date %></div>
+    </div>
+    <div class="movie__field movie__field--overview">
+        <div class="movie__value"><%= overview %></div>
+    </div>
+    <div class="movie__link">
+        <a href="<%= homepage %>"> <%= homepage %></a>
+    </div>
+</div>
+
+
+<div class="movie__nav">
+    <span class="movie-nav movie__nav--prev">prev</span>
+    <span class="movie-nav movie__nav--next">next</span>
+</div>
+
+

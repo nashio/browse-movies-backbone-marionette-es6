@@ -1,0 +1,27 @@
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+
+@mixin rotate($d: 180deg){
+    -webkit-transform: rotate($d);
+    -ms-transform: rotate($d);
+    transform: rotate($d);
+}
+
+@mixin transition($prop, $time: 500ms){
+    -webkit-transition: $prop $time;
+    -ms-transition: $prop $time;
+    transition: $prop $time;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
