@@ -1,9 +1,9 @@
-import {constants} from 'js/helpers/constants';
+import {constants} from 'js/utils/constants';
 
 var singleAPI = constants.singleAPI;
 var apiKey = '?api_key=' + constants.apiKey;
 
-var utils = {
+var helpers = {
     loadFile(templateFile){
         var tplHTML = '';
         $.ajax({
@@ -29,4 +29,4 @@ var utils = {
     makeActive: ($el) => $el.addClass('active').siblings().removeClass('active')
 };
 
-export {utils};
+export {helpers};

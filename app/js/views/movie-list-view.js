@@ -1,4 +1,4 @@
-import {utils} from 'js/helpers/utils';
+import {helpers} from 'js/utils/helpers';
 import {MovieRowView} from 'js/views/movie-row-view';
 
 var MovieListView = Marionette.CollectionView.extend({
@@ -46,7 +46,7 @@ var MovieListView = Marionette.CollectionView.extend({
     highlightRow($el){
         // grab element to highlight or default to first one
         var $childEl = $el || this.$el.find('li').eq(0);
-        utils.makeActive($childEl);
+        helpers.makeActive($childEl);
     }
 
 });

@@ -4,7 +4,7 @@ import {MovieListModel} from 'js/models/movie-list-model';
 import {MovieListView} from 'js/views/movie-list-view';
 import {MovieDetailView} from 'js/views/movie-detail-view';
 import {MainLayout} from 'js/main-layout';
-import {utils} from 'js/helpers/utils';
+import {helpers} from 'js/utils/helpers';
 
 var Controller = Marionette.Controller.extend({
 
@@ -45,7 +45,7 @@ var Controller = Marionette.Controller.extend({
 
     onListSelected(child){
         var id = child.get('id');
-        this.movieModel.url = utils.createMovieUrl(id);
+        this.movieModel.url = helpers.createMovieUrl(id);
         this.movieModel.fetch();
         this.detailView.setLoadingState(true);
     }

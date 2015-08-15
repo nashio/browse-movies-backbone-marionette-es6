@@ -1,13 +1,13 @@
 
-import {utils} from 'js/helpers/utils';
-import {constants} from 'js/helpers/constants';
+import {helpers} from 'js/utils/helpers';
+import {constants} from 'js/utils/constants';
 import {MovieDetailModel} from 'js/models/movie-detail-model';
 
 // object destructure assignment
 var {base, thumbSize, posterSize} = constants;
 
 // grab file html
-var template = utils.loadFile('templates/movie-detail.html');
+var template = helpers.loadFile('templates/movie-detail.html');
 
 var MovieDetailView = Marionette.ItemView.extend({
     tagName: 'div class="catalog__detail-wrap"',
@@ -29,7 +29,7 @@ var MovieDetailView = Marionette.ItemView.extend({
     serializeData(){
         var model = this.model;
         model.set('backdrop_img', base + posterSize + model.get('backdrop_path') );
-        model.set('prod_companies', utils.comifyArray(model.get('production_companies')));
+        model.set('prod_companies', helpers.comifyArray(model.get('production_companies')));
         return model.toJSON();
     },
 

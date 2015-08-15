@@ -1,8 +1,8 @@
-import {utils} from 'js/helpers/utils';
-import {constants} from 'js/helpers/constants';
+import {helpers} from 'js/utils/helpers';
+import {constants} from 'js/utils/constants';
 
 var thumbURL = constants.base + constants.thumbSize;
-var template = utils.loadFile('templates/movie-row.html');
+var template = helpers.loadFile('templates/movie-row.html');
 
 var MovieRowView = Marionette.ItemView.extend({
     tagName: 'li class="movielist__item"',

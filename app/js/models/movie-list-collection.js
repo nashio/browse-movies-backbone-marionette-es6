@@ -1,5 +1,5 @@
 import {MovieListModel} from 'js/models/movie-list-model';
-import {constants} from 'js/helpers/constants';
+import {constants} from 'js/utils/constants';
 
 // constants
 var apiURL =  constants.listAPI + constants.apiKey;
