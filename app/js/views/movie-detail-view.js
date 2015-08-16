@@ -29,7 +29,6 @@ var MovieDetailView = Marionette.ItemView.extend({
     serializeData(){
         var model = this.model;
         model.set('backdrop_img', base + posterSize + model.get('backdrop_path') );
-        model.set('prod_companies', helpers.comifyArray(model.get('production_companies')));
         return model.toJSON();
     },
 
