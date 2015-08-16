@@ -2,7 +2,7 @@ Navigate through a list of movies from the Movie Database API. Uses backbone mar
 
 Marionette Structure:
 
-![alt tag](http://ignaciochavez.com/files/movie-catalog/backbone-marionette-app-structure.jpg)
+![alt tag](http://ignaciochavez.com/files/movie-catalog/backbone-marionette-app-structure.jpg?)
 
 
 install managers
