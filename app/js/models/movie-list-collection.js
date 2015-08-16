@@ -22,7 +22,7 @@ var MovieListCollection = Backbone.Collection.extend({
     },
 
     parse(resp) {
-        // extract results
+        // extract 'results' property from main json
         return resp.results;
     },
 
