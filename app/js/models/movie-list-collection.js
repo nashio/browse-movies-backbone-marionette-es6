@@ -9,6 +9,7 @@ var MovieListCollection = Backbone.Collection.extend({
 
     defaults: {
         model: MovieListModel,
+        // store some state fields
         sortDirection: 1,
         idx: 0
     },
