@@ -1,6 +1,6 @@
-Navigate through a list of movies from the Movie Database API. Uses backbone marionette, es6 modules and brunch.
+Navigate through a list of movies from the Movie Database API. Uses backbone marionette, es6 modules and brunch as the task runner.
 
-Marionette Structure:
+backbone-marionette structure:
 
 ![alt tag](http://ignaciochavez.com/files/movie-catalog/backbone-marionette-app-structure.jpg?)
 
