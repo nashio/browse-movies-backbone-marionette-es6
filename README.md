@@ -5,6 +5,11 @@ Marionette Structure:
 ![alt tag](http://ignaciochavez.com/files/movie-catalog/backbone-marionette-app-structure.jpg?)
 
 
+demo:
+
+[http://nashio.github.io/catalog-marionette-es6](http://nashio.github.io/catalog-marionette-es6/ "demo")
+
+
 install managers
 
     npm install brunch
