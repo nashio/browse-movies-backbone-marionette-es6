@@ -34,5 +34,5 @@ User your own moviedb developer key in:
 
 TODO:
 
-    Adding sort by fields
+    implement sort by fields
 
